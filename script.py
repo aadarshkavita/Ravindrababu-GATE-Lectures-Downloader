@@ -1,5 +1,5 @@
-uname='Enter your yourname here'
-pword='Enter your password here'
+username ='Enter your yourname here'
+password ='Enter your password here'
 
 
 from selenium import webdriver
@@ -80,8 +80,8 @@ username = browser.find_element_by_id('username')
 password = browser.find_element_by_id('password')
 
 # Enter Credentials
-username.send_keys(uname)
-password.send_keys(pword)
+username.send_keys(username)
+password.send_keys(passeord)
 
 
 def download(url, file_name):
